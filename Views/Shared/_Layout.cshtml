@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+@{
+    ViewBag.Title = "Wipro Consumer Care and Lighting ";
+    Layout = "~/Views/Shared/_Includes.cshtml";
+}
+<html lang="en">
+<body>
+    <!-- Header Row-->
+    <div class="container-fluid p-0">
+        <div class="header row shadow rounded" id="imgh">
+            <div class="col-1 pl-3 pt-3">
+                <img src="~/lib/images/wiprologo.jpg" class="img-fluid" />
+            </div>
+            <div class="col-4 mt-1 pl-3 pt-3">
+                <h1 class="text-primary">Consumer Care and Lighting</h1>
+                <h3 class="text-secondary">Ticket Management System</h3>
+            </div>
+            <div class="col-7 btn-group-lg p-0 m-0">
+                <button type="button" class="btn btn1 btn-yellow">Consultant</button>
+                <button type="button" class="btn btn1 btn-deep-purple">Key User</button>
+                <button type="button" class="btn btn1 btn-blue">Home</button>
+                <button type="button" class="btn btn1 btn-purple">MIS Report</button>
+                <button type="button" class="btn btn1 btn-dark-green">My Ticket</button>
+            </div>
+        </div>
+        <div class="container h-100 w-100">@RenderBody()</div>
+        <!-- Footer -->
+        <footer class="page-footer">
+            <div class="container-fluid fixed-bottom w-100 p-2 bg-dark" id="copyrigt">
+                <a class="pl-2">Copyright &nbsp;(c)&nbsp; 2021, Wipro Consumer Care and Lighting.</a>
+                <a class="float-right pl-5 pr-2" id="Time"></a>
+                <a class="float-right">User : Administrator</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

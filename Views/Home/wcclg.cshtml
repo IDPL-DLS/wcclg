@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Wcclg - Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content container center text-center mt-5 pt-5">
+    <div class="btn btn-group-vertical btn-lg h-30">
+        <div class="row page-header pb-1">
+            <i class="fa fa-circle aweffn pl-1 pt-2" style="color: #0094ff"></i>
+            <i class="fa fa-circle aweffn pl-1 pt-2" style="color: #ffd800"></i>
+            <i class="fa fa-circle aweffn pl-1 pt-2 pr-2" style="color: #4cff00"></i>
+            <h2 class="text-secondary">Menu Options</h2>
+        </div>
+        <a href="Initiate" id="btninitiate" type="button" class="btn btn-warning text-white pb-2">Initiate Invoice Generation - Part I</a>
+        <a href="DownloadConfirmation" id="btndownload" type="button" class="btn btn-success text-white pb-2">Download Confirmaton - Part II</a>
+        <a href="InvoiceGeneration" id="btview" type="button" class="btn btn-info text-white pb-2">Invoice Generation Log</a>
+    </div>
+    <div class="mt-5 d-flex justify-content-center">
+        <div id="waitspininitiate" class="spinner-border text-white-50" style="font-size:2vw; display:none;"></div>
+    </div>
+</div>

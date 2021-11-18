@@ -1,0 +1,38 @@
+﻿body {
+}
+
+.header {
+    padding-bottom: 1vh;
+    background: #ffffff;
+    color: #0d6efd;
+    z-index: 999;
+}
+
+.footer {
+    position: relative;
+}
+
+.stky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.stky + .content {
+        padding-top: 10vh;
+}
+
+.btn1 {
+    text-transform: none;
+    text-align: center !important;
+    width: 10vw;
+    height: 6vh;
+    font-size: 2.2em;
+    line-height: 1.5em;
+    color: #ffffff;
+}
+
+.aweffn {
+    font-size: 14px;
+    text-shadow: 2px 2px 8px #333334;
+}
